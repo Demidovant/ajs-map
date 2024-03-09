@@ -5,7 +5,6 @@ export default class ErrorRepository {
 
   add(code, message) {
     this.errorsStorage.set(code, message);
-    return this.errorsStorage;
   }
 
   translate(code) {
